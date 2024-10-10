@@ -2,38 +2,23 @@ import styles from './Login.module.css'
 
 const Login = () => {
     return (
-        <div className="NewBoardBoard_div1">
-            <nav className="NewBoardBoard_nav1">
-                <a href="/home" className="NewBoardBoard_a3">
-                    deficiencia
-                </a>
-                <a href="/home" className="NewBoardBoard_a4">
-                    centro de ajuda
-                </a>
-                <a href="/home" className="NewBoardBoard_a5">
-                    sobre nós
-                </a>
-                <a href="/about" className="NewBoardBoard_a6">
-                    colaborar
-                </a>{" "}
-                <img src={VectorSvg} />
-            </nav>
-            <div className="PageLoginBoard_header1">
-                <h1 className="PageLoginBoard_header2"> LOGIN</h1>
-                <form className="PageLoginBoard_form2">
-                    <label className="PageLoginBoard_label3">Email:</label>
+        <div className={styles.NewBoardBoard_div1}>
+            <div className={styles.PageLoginBoard_header}>
+                <h1 className={styles.PageLoginBoard_header2}> LOGIN</h1>
+                <form className={styles.PageLoginBoard_form2}>
+                    <label className={styles.PageLoginBoard_label3}>Email:</label>
                     <br />
-                    <input type="text" className="PageLoginBoard_input4" />
+                    <input type="text" className={styles.PageLoginBoard_input4} />
                     <br />
-                    <label className="PageLoginBoard_label4">Senha:</label>
+                    <label className={styles.PageLoginBoard_label4}>Senha:</label>
                     <br />
-                    <input type="text" className="PageLoginBoard_input5" />
+                    <input type="text" className={styles.PageLoginBoard_input5} />
                     <br />
                     <br />
                     <input
                         type="submit"
                         value="Entrar"
-                        className="PageLoginBoard_input6"
+                        className={styles.PageLoginBoard_input6}
                     />
                 </form>
             </div>
@@ -41,4 +26,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Login;

@@ -2,6 +2,9 @@ body {
   background-color: #fff7d1;
   height: 60rem;
   width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .PageLoginBoard_div1 {
   width: 50%;
@@ -55,6 +58,9 @@ body {
   font-size: 35px;
   color: #e9013d;
   font-family: Comic Sans MS, cursive;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .PageLoginBoard_label2 {
   font-size: 20px;
@@ -93,4 +99,8 @@ body {
   font-size: 30px;
   margin-left: 5em;
   margin-right: 5em;
+  border-radius: 3px;
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
 }
