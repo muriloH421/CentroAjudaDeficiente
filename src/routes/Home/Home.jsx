@@ -12,39 +12,45 @@ const Home = () => {
                     missao é promover a inclusão e a independência, garantindo que todos
                     tenham acesso ás mesmas oportunidades
                     <h1 className={styles.NewBoardBoard_header9}>Nossos serviços 👇</h1>
-                    <div className={styles.NewBoardBoard_div3}>
-                        <div>
-                            <h2 className={styles.NewBoardBoard_header7}>
-                                Programas de capacitação
-                                <p className={styles.NewBoardBoard_p3}>
-                                    Realizaremos treinamentos e workshops para empresas e
-                                    comunidade promovendo a conscientização e a inclusão.
-                                </p>
-                            </h2>
+
+
+                    {/* cards */}
+                    <div className={styles.container2}>
+                        <div className={styles.Card1}>
+                            <h2>Programas de capacitação</h2>
+                            <p>
+                                Realizaremos treinamentos e workshops para empresas e
+                                comunidade promovendo a conscientização e a inclusão.
+                            </p>
                         </div>
-                        <div className={styles.NewBoardBoard_div4}>
-                            <h2 className={styles.NewBoardBoard_header6}>
-                                Consultoria em Acessibilidade
-                                <p className={styles.NewBoardBoard_p4}>
-                                    Oferecemos orientação especialização para empresas e
-                                    instituição, ajudando-as a tornar seus espaços e serviços mais
-                                    acessíveis .
-                                </p>
-                            </h2>
+
+                        <div className={styles.Card2}>
+                            <h2>Consultoria em Acessibilidade </h2>
+                            <p>
+                                Oferecemos orientação especialização para empresas e
+                                instituição, ajudando-as a tornar seus espaços e serviços mais
+                                acessíveis .
+                            </p>
                         </div>
-                        <div>
-                            <h2 className={styles.NewBoardBoard_header8}>
+
+                        <div className={styles.Card3}>
+                            <h2>
                                 Tecnologia Assistiva
-                                <p className={styles.NewBoardBoard_p5}>
-                                    Desenvolvemos e fornecemos soluções tecnológicas
-                                    personalizadas para atender ás necessidades especificas de
-                                    cada individuo.
-                                </p>
                             </h2>
+                            <p >
+                                Desenvolvemos e fornecemos soluções tecnológicas
+                                personalizadas para atender ás necessidades especificas de
+                                cada individuo.
+                            </p>
                         </div>
+
+
                     </div>
+
+
+
                 </p>
-                <div className={styles.NewBoardBoard_header10}>
+                <div className={styles.Contato}>
                     <h1>FAÇA A DIFERENÇA CONOSCO</h1>
                     <p className={styles.NewBoardBoard_p7}>
                         Entre em contato para saber como podemos ajudar você ou sua
