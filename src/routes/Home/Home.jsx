@@ -2,6 +2,7 @@ import styles from './Home.module.css'
 
 const Home = () => {
     return (
+
         <div className={styles.NewBoardBoard_div1}>
             <div className={styles.NewBoardBoard_div1}>
                 {" "}
@@ -29,7 +30,7 @@ const Home = () => {
                             <p>
                                 Oferecemos orientação especialização para empresas e
                                 instituição, ajudando-as a tornar seus espaços e serviços mais
-                                acessíveis .
+                                acessíveis.
                             </p>
                         </div>
 
@@ -43,12 +44,7 @@ const Home = () => {
                                 cada individuo.
                             </p>
                         </div>
-
-
                     </div>
-
-
-
                 </p>
                 <div className={styles.Contato}>
                     <h1>FAÇA A DIFERENÇA CONOSCO</h1>
