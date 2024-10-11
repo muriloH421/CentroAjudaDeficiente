@@ -35,10 +35,6 @@ Estamos comprometidos em fazer a diferença! Se você é uma pessoa, empresa ou 
 
 Se você tem sugestões ou deseja contribuir com nosso projeto, fique à vontade para entrar em contato!
 
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
 ---
 ## Link API
 
