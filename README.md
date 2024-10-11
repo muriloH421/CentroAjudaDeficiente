@@ -1,4 +1,4 @@
-# CAD = Centro de Ajuda A Deficientes
+# CAD = Centro de Ajuda A Deficientes 🦼
 
 # Acessibilidade para Todos
 
