@@ -11,7 +11,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Login from "./routes/Login/Login.jsx";
 import Home from "./routes/Home/Home.jsx"
-import SobreNos from "./routes/SobreNos/SobreNos.jsx";
 import CentroAjuda from "./routes/CentroAjuda/CentroAjuda.jsx";
 
 const router = createBrowserRouter([
@@ -22,7 +21,6 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/login", element: <Login /> },
-      { path: "/sobre", element: <SobreNos /> },
       { path: "/centroajuda", element: <CentroAjuda /> },
     ],
   },
