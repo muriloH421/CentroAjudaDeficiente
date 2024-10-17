@@ -2,8 +2,8 @@ import styles from './Header.module.css'
 import { Link, useLocation } from 'react-router-dom';
 
 const navigation = [
-    { path: "/sobre", element: "Sobre Nós" },
     { path: "/centroajuda", element: "Centro de Ajuda" },
+    { path: "/Login", element: "Login" },
 ];
 
 

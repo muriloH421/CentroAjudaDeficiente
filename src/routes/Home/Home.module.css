@@ -25,25 +25,31 @@ body {
 
 /* Cards */
 .Container2 {
-  grid-column: auto;
+  font-family: Arial, sans-serif;
 }
 .Card1 {
   background-color: #ffffff;
   height: 200px;
-  width: 300px;
+  width: 350px;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 4.95px 4.95px 20px -6px rgba(0, 0, 0, 0.5);
 }
 .Card2 {
   background-color: #ffffff;
   height: 200px;
-  width: 300px;
+  width: 350px;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 4.95px 4.95px 20px -6px rgba(0, 0, 0, 0.5);
 }
 .Card3 {
   background-color: #ffffff;
   height: 200px;
-  width: 300px;
+  width: 350px;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 4.95px 4.95px 20px -6px rgba(0, 0, 0, 0.5);
 }
 /* _______________________________________________________________________ */
 
