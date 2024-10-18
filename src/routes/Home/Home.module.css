@@ -26,6 +26,10 @@ body {
 /* Cards */
 .Container2 {
   font-family: Arial, sans-serif;
+  display: flex;
+  grid-auto-flow: column;
+  flex-direction: row;
+  gap: 100px;
 }
 .Card1 {
   background-color: #ffffff;
