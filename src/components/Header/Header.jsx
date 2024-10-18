@@ -1,12 +1,10 @@
 import styles from './Header.module.css'
 import { Link, useLocation } from 'react-router-dom';
 
-const navigation = [
-    { path: "/centroajuda", element: "Centro de Ajuda" },
-    { path: "/Login", element: "Login" },
-];
-
-
+// const navigation = [
+//     { path: "/centroajuda", element: "Centro de Ajuda" },
+//     { path: "/Login", element: "Login" },
+// ];
 const Header = () => {
     const location = useLocation();
 
