@@ -29,7 +29,10 @@ body {
   display: flex;
   grid-auto-flow: column;
   flex-direction: row;
+<<<<<<< HEAD
   gap: 100px;
+=======
+>>>>>>> 4915b81438dae8c5f4f0f5ac1bfd09a72b1dad25
 }
 .Card1 {
   background-color: #ffffff;
